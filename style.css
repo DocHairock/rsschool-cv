@@ -1,1 +1,41 @@
-ss
+body{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 1200px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    vertical-align: bottom;
+    background-color: rgb(117, 111, 111);
+}
+img{
+    margin-top: 5px;
+}
+aside{
+    flex-grow: 0.2 ;
+}
+nav ul{
+     background-color: rgb(117, 111, 111);
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end ;
+
+}
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
+nav li{
+    padding: 5px;
+    list-style-type: none;
+    
+}
