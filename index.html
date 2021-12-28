@@ -62,8 +62,8 @@
     <pre>
     <code>
         function isIntArray(arr) {
-        if(typeof(arr)=='string'||typeof(arr)=='number'||arr==null)return false
-        for (let i = 0; i<arr.length; i++){if (!Number.isInteger(arr[i])) return false} return true }
+        if(typeof(arr)=='string'||typeof(arr)=='number'||arr==null) {return false}
+        else for (let i = 0; i<arr.length; i++){if (!Number.isInteger(arr[i])) {return false} else return true }}
     </code>
     </pre>
      </div>
